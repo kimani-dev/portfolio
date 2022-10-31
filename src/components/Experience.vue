@@ -39,6 +39,11 @@ export default {
   data: () => ({
     experiences: [
       {
+        title: "suvence technologies",
+        year: "2022",
+        works: ["working as a full stack web developer"],
+      },
+      {
         title: "software technologies limited",
         year: "2021",
         works: [
@@ -51,18 +56,17 @@ export default {
         title: "freelance software developer",
         year: "2021",
         works: [
-          "created a company website for nextsensetech",
           " Created a mobile app for management of unexpected automobile issues. Integrated Google Maps and the Safaricom Daraja API,",
           "Created a Custom Writing Website for a client. Integrated Paypal and the Stripe API.",
-          " Created a functional blog known as JamboChronicles for a client",
+          " Created a functional blog known as JamboChronicles",
         ],
       },
       {
-        title: "institute of software technologies",
+        title: "nextsense technologies",
         year: "2020",
         works: [
-          "diploma in software development",
-          "graduated as the top student",
+          "worked as a web developer",
+          "worked with HTML, CSS, JS and bootstrap to create responsive websites",
         ],
       },
     ],

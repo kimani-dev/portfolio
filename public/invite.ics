@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20220328T084000Z
+DTEND:20220328T090000Z
+DTSTAMP:20220324T140631Z
+ORGANIZER;CN=tarik@brainnest.consulting:mailto:tarik@brainnest.consulting
+UID:61srmn33udiqjp95dvslho87oo@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=daviemim07@gmail.com;X-NUM-GUESTS=0:mailto:daviemim07@gmail.com
+X-MICROSOFT-CDO-OWNERAPPTID:-955838500
+CREATED:20220324T140629Z
+DESCRIPTION:Attendee:\nDavid Kimani (daviemim07@gmail.com)\n\nMeeting type\
+ nBrainnest FD Interview‌ \n\nTeam member:\nTarik\n\nConferencing informatio
+ n:\nWhen it's time\, join the meeting from PC\, Mac\, Linux\, iOS or Androi
+ d: \nhttps://us05web.zoom.us/j/82087777877?pwd=UTZsLzJmK0pBbW9aSGk2VFdTOEFD
+ QT09\nPasscode: A@k9Wy1YB0\n\nOr iPhone one-tap:\n US: +16468769923\, 82087
+ 777877#  or +16699006833\, 82087777877# \n\nOr Telephone:\nDial (for higher
+  quality\, dial a number based on your current location): \n US: +1 646 876
+  9923  or +1 669 900 6833\nMeeting ID: 82087777877\nInternational numbers a
+ vailable: https://zoom.us/zoomconference\n\nAccess Information:\nWhere: Zoo
+ m\nMeeting ID: 82087777877\nMeeting passcode: A@k9Wy1YB0\n\nCustomer's canc
+ el/reschedule link: \nhttps://go.oncehub.com/fd-interview?Params=20F2DAE819
+ 1B67E49706F04FFB1BC37D3874A1CA68B1C4F72EF687FBB99364EE\n\n\n\nBooking ID:\n
+ BKNG-1TRNPM0HVCJ6\n\n\n\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nDo not edit this section of the de
+ scription.\n\nView your event at https://calendar.google.com/calendar/event
+ ?action=VIEW&eid=NjFzcm1uMzN1ZGlxanA5NWR2c2xobzg3b28gZGF2aWVtaW0wN0Bt&tok=M
+ jYjdGFyaWtAYnJhaW5uZXN0LmNvbnN1bHRpbmcyYTE3MTA1ZjViYzZjNGNlMjNiMDUwOTMyNTkz
+ ZThmM2MxMTE0OWNh&ctz=Africa%2FNairobi&hl=en&es=1.\n-::~:~::~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20220324T140629Z
+LOCATION:https://us05web.zoom.us/j/82087777877?pwd=UTZsLzJmK0pBbW9aSGk2VFdT
+ OEFDQT09
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:David Kimani - Brainnest FD Interview
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -25,11 +25,11 @@
       </v-btn>
     </v-fab-transition>
     <v-navigation-drawer app dark v-model="drawer">
-      <p
-        class="display-2 text-uppercase text-center primary--text font-weight-bold"
-      >
-        dk
-      </p>
+      <div>
+        <v-img src="favicon.png" height="170"></v-img>
+      </div>
+
+      <v-divider class="mt-3"></v-divider>
       <p
         class="white--text text-h5 text-capitalize text-center fonr-weight-bold"
       >

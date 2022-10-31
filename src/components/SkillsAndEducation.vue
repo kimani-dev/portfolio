@@ -120,6 +120,11 @@ export default {
   data: () => ({
     education: [
       {
+        school: "KCA",
+        course: "degree in software development",
+        duration: "2022 - 2024",
+      },
+      {
         school: "institute of software technologies",
         course: "diploma in software development",
         duration: "2020 - 2020",
@@ -150,7 +155,7 @@ export default {
         },
         {
           title: "JAVA",
-          rating: 3,
+          rating: 4,
         },
       ],
       others: [
@@ -163,12 +168,12 @@ export default {
           rating: 4,
         },
         {
-          title: "UI/UX",
+          title: "Android",
           rating: 5,
         },
         {
           title: "REST",
-          rating: 4,
+          rating: 5,
         },
         {
           title: "Git",
