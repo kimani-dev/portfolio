@@ -10,24 +10,26 @@
       <div>
         <v-container>
           <v-row>
-            <div class="d-flex flex-column">
+            <v-col>
               <v-row justify="center" justify-sm="end">
-                <h1
-                  class="text-uppercase display-3 font-weight-light justify-end mr-4"
-                >
-                  david kimani
-                </h1>
+                <v-col cols="10" sm="5">
+                  <h1
+                    class="text-uppercase text-h4 text-sm-h3 font-weight-light justify-end"
+                  >
+                    david kimani
+                  </h1>
+                </v-col>
               </v-row>
-              <h1
-                :class="
-                  isMobile
-                    ? 'text-uppercase display-3 font-weight-light primary--text text-center'
-                    : 'text-uppercase display-4 font-weight-light primary--text text-center'
-                "
-              >
-                front-end developer
-              </h1>
-            </div>
+              <v-row justify="center" justify-sm="start">
+                <v-col cols="10" sm="12">
+                  <h1
+                    class="text-uppercase text-h2 text-sm-h1 font-weight-light primary--text"
+                  >
+                    Software developer
+                  </h1>
+                </v-col>
+              </v-row>
+            </v-col>
           </v-row>
           <v-row justify="center">
             <v-col align-self="center" cols="2">
@@ -54,6 +56,7 @@
       <Experience />
       <SkillsAndEducation />
       <Portfolio />
+      <Testimonials />
       <Contact />
     </v-container>
   </div>
@@ -65,6 +68,7 @@ import Service from "../components/Service.vue";
 import Experience from "../components/Experience.vue";
 import SkillsAndEducation from "@/components/SkillsAndEducation.vue";
 import Portfolio from "@/components/Portfolio.vue";
+import Testimonials from "@/components/Testimonials.vue";
 import Contact from "@/components/Contact.vue";
 
 export default {
@@ -75,6 +79,7 @@ export default {
     Experience,
     SkillsAndEducation,
     Portfolio,
+    Testimonials,
     Contact,
   },
   computed: {

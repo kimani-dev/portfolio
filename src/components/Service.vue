@@ -1,5 +1,5 @@
 <template>
-  <v-row id="my-services">
+  <v-row id="my-services" class="mt-3">
     <v-col>
       <h1 class="primary--text display-2">What I can do for you.</h1>
 
@@ -33,49 +33,46 @@ export default {
   data: () => ({
     services: [
       {
-        title: "custom web app development",
+        title: "Frontend development",
         description:
-          "Fueling the interactivity and expressions into web portals via a customized approach using clean code and great usability.",
+          "I am an expert in front-end languages such as HTML, CSS/SCSS, Bootstrap, JavaScript, Vue.js, Node.js and React.js. I focus on using technologies that not only make your solutions attractive, but also enhance its performance. I make sure that your websites, applications and products have a user-friendly UI/UX.",
       },
       {
-        title: "UI-UX Design",
+        title: "Backend Development",
         description:
-          "Creating fluid and user-focused UI-UX designs to help you navigate every aspect of digital landscape offering intuitive, responsive and fully functional products that boost your brand value.",
-      },
-      {
-        title: "vue js development",
-        description:
-          "Delivering vue projects with UI libraries such a Vuetify from scratch to production offering scalable and stable products.",
+          "I am proficient in handling applications that run on servers like applications and APIs. I build websites that function seamlessly and fulfill the expectations of your customers. I use programming languages and frameworks like PHP, SQL, Java, Node.js and Laravel.",
       },
       {
         title: "API development and integration",
         description:
-          "Powerful, secure and easily maintained APIs using the latest represantational state transfer (REST) architecture. Includes integration of products with existing APIs such as Stripe.",
+          "I have immense experience in providing custom web API and integration services. I offer entire web API development services that help in the smooth and seamless functioning of your solutions. And if you require, Ii will build custom APIs for you to be used by external applications without any hindrances. I execute integrations for your payment systems, social networks, business tools, etc.",
+      },
+      {
+        title: "UI/UX Design",
+        description:
+          "I can craft all the possible web experiences with pixel-perfect UI/UX designs that you can imagine. I build full stack web applications, Mobile applications, web portals, etc.",
       },
       {
         title: "migration, support and maintenance",
         description:
-          "Migrating from old systems or upgrading slow systems to more intuitive and elegant designs and performance with end to end support for modernizing and uplifting your apps.",
+          "I help you migrate from old systems or upgrading slow systems to more intuitive and elegant designs and performance with end to end support for modernizing and uplifting your apps.",
       },
     ],
   }),
   mounted() {
     this.gsap.fromTo(
       "#expansionPanel",
-      { rotation: 30, opacity: 0 },
+      { opacity: 0, x: 200 },
       {
         duration: 2,
-        rotation: 0,
-        scale: 1,
+        x: 0,
         opacity: 1,
-        ease: "power",
+        ease: "slow",
         stagger: {
-          each: 0.2,
-          from: "center",
+          each: 0.5,
         },
         scrollTrigger: {
           trigger: "#my-services",
-          start: "top 400px",
         },
       }
     );

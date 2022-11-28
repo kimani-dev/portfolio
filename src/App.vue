@@ -38,7 +38,7 @@
       <p
         class="white--text text-subtitle-1 text-uppercase font-weight-light text-center"
       >
-        front-end developer
+        software developer
       </p>
 
       <v-divider></v-divider>
@@ -60,13 +60,17 @@
 
       <template v-slot:append>
         <div class="pa-2 d-flex justify-center">
-          <v-btn icon href="https://github.com/wathamiwakimani" target="blank">
+          <v-btn icon href="https://github.com/kimani-dev" target="_blank">
             <v-icon> mdi-github </v-icon>
           </v-btn>
-          <v-btn icon href="https://linkedin.com/in/davidkimani" target="blank">
+          <v-btn
+            icon
+            href="https://linkedin.com/in/davidkimani"
+            target="_blank"
+          >
             <v-icon> mdi-linkedin </v-icon>
           </v-btn>
-          <v-btn icon href="https://ithewakimani.xyz" target="blank">
+          <v-btn icon href="https://ithewakimani.xyz" target="_blank">
             <v-icon> mdi-web </v-icon>
           </v-btn>
         </div>

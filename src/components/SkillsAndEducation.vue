@@ -151,7 +151,7 @@ export default {
         },
         {
           title: "PHP",
-          rating: 4,
+          rating: 5,
         },
         {
           title: "JAVA",
@@ -165,7 +165,7 @@ export default {
         },
         {
           title: "Laravel",
-          rating: 4,
+          rating: 5,
         },
         {
           title: "Android",
@@ -177,7 +177,7 @@ export default {
         },
         {
           title: "Git",
-          rating: 4,
+          rating: 5,
         },
       ],
     },
@@ -185,15 +185,14 @@ export default {
   mounted() {
     this.gsap.fromTo(
       "#educationItem",
-      { scale: 2, opacity: 0 },
+      { opacity: 0, x: -200 },
       {
-        scale: 1,
+        x: 0,
         opacity: 1,
-        ease: "bounce",
+        ease: "slow",
         duration: 2,
         stagger: {
-          each: 0.1,
-          from: "edges",
+          each: 0.5,
         },
         scrollTrigger: "#educationItem",
       }
@@ -205,7 +204,7 @@ export default {
       {
         x: 0,
         opacity: 1,
-        delay: 2,
+        delay: 1,
         ease: "slow",
         duration: 1,
         stagger: 0.2,

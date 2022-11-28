@@ -124,9 +124,9 @@ export default {
     projects: [
       {
         title: "E-parliament system",
-        type: "custom web app development",
+        type: "Frontend Development",
         description:
-          "Custom web app for the county assembly for managing legistlative documents and procedures with text to speech generated hansards ",
+          "I did the frontend for a county assembly for managing legistlative documents and procedures with text to speech generated hansards ",
         owner: "county assembly",
         img: "eparliament",
         start: "2022 jan",
@@ -134,10 +134,20 @@ export default {
         demo: "https://eparliament.onrender.com",
       },
       {
+        title: "Techify Web App",
+        type: "Frontend & Backend Development",
+        description: "Created the frontend and backend of Techify Academy",
+        owner: "David Kimani",
+        img: "techify",
+        start: "2022 sep",
+        end: "2022 oct",
+        demo: "https://techify.academy",
+      },
+      {
         title: "Company website",
         type: "migration",
         description:
-          "Performed modernization of the company website and upgraded the technologies",
+          "Performed modernization of the company website and upgraded the technologies used",
         owner: "nextsense tech",
         img: "nextsense",
         start: "2021 oct",
@@ -192,12 +202,14 @@ export default {
         pin: true,
         scrub: 1,
         onUpdate: (self) => {
-          if (self.progress < 0.3) {
+          if (self.progress < 0.2) {
             this.carousel = 0;
-          } else if (self.progress > 0.3 && self.progress < 0.6) {
+          } else if (self.progress > 0.2 && self.progress < 0.4) {
             this.carousel = 1;
-          } else {
+          } else if (self.progress > 0.4 && self.progress < 0.6) {
             this.carousel = 2;
+          } else {
+            this.carousel = 3;
           }
         },
         // snap: 1 / (panels.length - 1),

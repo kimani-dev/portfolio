@@ -8,7 +8,7 @@ import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
 ScrollTrigger.defaults({
-  toggleActions: "restart pause resume none",
+  toggleActions: "restart none resume none",
 });
 
 gsap.registerPlugin(ScrollTrigger);
