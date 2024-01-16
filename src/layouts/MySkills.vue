@@ -28,6 +28,12 @@ const frontend = [
       'Fluent in modern JavaScript syntax and best practices, writing clean and efficient code for interactive elements.'
   },
   {
+    title: 'Typescript',
+    icon: 'mdi-language-typescript',
+    description:
+      "Passionate about TypeScript's ability to write cleaner and more expressive JavaScript."
+  },
+  {
     title: 'CSS Preprocessors (Sass/LESS)',
     icon: 'mdi-file-code',
     description:
@@ -88,6 +94,12 @@ const backend = [
     description:
       'Building clean and well-documented APIs for seamless data exchange between applications.'
   },
+  {
+    title: 'Firebase',
+    icon: 'mdi-firebase',
+    description:
+      "Proficient in building and deploying modern web and mobile applications with Firebase's cloud-based tools."
+  },
 
   // Bonus
   {
@@ -103,9 +115,14 @@ const backend = [
   <v-container fluid class="mt-5">
     <h3 class="text-h4 text-primary">My Skills . . .</h3>
     <v-row>
-      <v-col cols="6">
+      <v-col cols="12" md="6">
         <v-row class="mt-2">
-          <v-col cols="6" v-for="({ icon, title, description }, index) in frontend" :key="index">
+          <v-col
+            cols="12"
+            md="6"
+            v-for="({ icon, title, description }, index) in frontend"
+            :key="index"
+          >
             <v-card height="150">
               <v-card-title>
                 <div class="d-flex">
@@ -123,9 +140,14 @@ const backend = [
         </v-row>
       </v-col>
       <v-divider vertical color="primary"></v-divider>
-      <v-col cols="6" class="elevation-3">
+      <v-col cols="12" md="6" class="elevation-3">
         <v-row class="mt-2">
-          <v-col cols="6" v-for="({ icon, title, description }, index) in backend" :key="index">
+          <v-col
+            cols="12"
+            md="6"
+            v-for="({ icon, title, description }, index) in backend"
+            :key="index"
+          >
             <v-card height="150">
               <v-card-title>
                 <div class="d-flex">

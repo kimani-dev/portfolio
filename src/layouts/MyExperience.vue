@@ -107,7 +107,7 @@ const jobs = [
                     prepend-icon="mdi-circle-small"
                   >
                     <template #title>
-                      <p class="text-subtite-2">{{ item }}</p>
+                      <p class="text-subtite-2 overflow-x-hidden">{{ item }}</p>
                     </template>
                   </v-list-item>
                 </v-list>

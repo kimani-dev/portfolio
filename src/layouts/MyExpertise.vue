@@ -74,7 +74,7 @@ function animate(el, done) {
           v-for="({ title, description, icon }, index) in expertise"
           :key="index"
           :data-index="index"
-          cols="4"
+          cols="12" md="4"
         >
           <v-hover>
             <template #default="{ isHovering, props }">
@@ -96,7 +96,7 @@ function animate(el, done) {
                   </div>
                 </v-card-title>
                 <v-card-text>
-                  <p class="text-subtitle-2" :class="isHovering ? 'font-weight-bold' : ''">
+                  <p class="text-subtitle-2">
                     {{ description }}
                   </p>
                 </v-card-text>
